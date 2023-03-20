@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Resoptima Frontend test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). I decided on creating it from scratch using create-react-app instead of forking from the original repo because it was farily simpler to mimic the implemented features.
+
+Name: Gonçalo Almeida
+Email: g.piriquito@gmail.com 
 
 ## Available Scripts
 
@@ -13,6 +16,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+### `npm start-json-server`
+
+Original script to start the service API.
 
 ### `npm test`
 
@@ -39,8 +46,13 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## TODO list
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Correctly implement `indes.ts` files for all components and pages;
+* Finish all CSS features and replace common placeholders in all `*.styled.ts` files;
+* Implement pagination in the API request. Wasn't able to get `_pages` query param to work with the library in question;
+* Finish Pagination component:
+    * Create file structure like all other components;
+    * Create a button component for all digits paginations and after and previous arrows;
+    * Create DropDown element to select the number of Movies displayed in any given page;
+    * Create apropriate callbacks to tie to the respective states.
